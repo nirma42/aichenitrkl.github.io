@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--jQuery library--> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--Latest compiled and minified JavaScript--> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="AIChE_CSS.css">
+    <link rel="icon" type="image/jpeg" href="images/AIChE_logo.jpeg">
+    <title>AIChE NITRKL</title>
+    <link rel="stylesheet" href="01.css">
+    <link rel="stylesheet" type="text/css" href="desktop_navbar.css">
+    <link rel="stylesheet" type="text/css" href="Gallery.css">
+
+
+    <script type="text/javascript" src="landing_page.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="newsletter.js"></script>
+    <link rel="stylesheet" type="text/css" href="lightbox01.css">
+    <script type="text/javascript" src="contact_us.js"></script>
+
+<body>
+        <div class="menu" id="menu">
+                <a href="javascript:void(0)" class="close" onclick="closeNav()">&times;</a>
+                <img src="images/AIChE_logo02.png" class="aiche_logo" alt="AIChE"> 
+                <img src="images/nitr_logo.png" class="nitr_logo" alt="AIChE">
+                <a href="index.html">HOME</a>
+                <a href="AIChE_About.html">ABOUT US</a>
+                <a href="AIChE_Team.html">PANEL</a>
+                <a href="AIChE_Gallery.html" style="color:#f7941d">GALLERY</a>
+                <a href="Achievements.html">ACHIEVEMENTS</a>
+                <div class="dropdown">
+                    <button class="drop_button" onclick="show_hide()">CONTACT</button>
+                    <div class="drop_content" id="drop_content" style="display:none;">
+                        <a href="#"></a>
+                        <a href="Developer_Contact.html">Developer Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="open" class="open" onclick="openNav()">&#9776;</div>
+
+    <div class="container4">
+    <div class="empty_container"></div>        
+
+    <div style="text-align:center;">
+        <h3 style="color:black;">The AIChE NIT Rourkela Family<hr color="black"></h3>
+    </div>
+
+    <div style="padding-bottom:20px;">
+        <div class="row">
+            <div class="column">
+                <img src="Images/AHA_0061.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="Images/AHA_0067.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="Images/AHA_0075.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="Images/AHA_0085.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="Images/AHA_0092.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="Images/AHA_0396.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="Images/AHA_0404.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="Images/EB_2018-19____.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+            </div>
+        </div>
+
+        <div id="myModal" class="modal">
+            <span class="close_gallery" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+
+                <div class="mySlides">
+                    <div class="numbertext">1 / 4</div>
+                    <img class="demo cursor" src="Images/AHA_0061.jpg" style="width:100%" alt="">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 4</div>
+                    <img class="demo cursor" src="Images/AHA_0067.jpg" style="width:100%">
+                </div>
+               
+                <div class="mySlides">
+                    <div class="numbertext">4 / 4</div>
+                    <img class="demo cursor" src="Images/AHA_0075.jpg" style="width:100%">
+                </div>
+                
+                <div class="mySlides">
+                    <div class="numbertext">5 / 4</div>
+                    <img class="demo cursor" src="Images/AHA_0085.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 4</div>
+                    <img class="demo cursor" src="Images/AHA_0092.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">7 / 4</div>
+                    <img class="demo cursor" src="Images/AHA_0396.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">8 / 4</div>
+                    <img class="demo cursor" src="Images/AHA_0404.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                        <div class="numbertext">8 / 4</div>
+                        <img class="demo cursor" src="Images/EB_2018-19____.jpg" style="width:100%">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script type="text/javascript" src="lightbox01.js"></script>
+
+
+    <footer>
+            <div style="background-color:rgb(17, 22, 65); color: #FFFFFF;">
+                <div class="row">
+                    <div class="col-md-6">
+                        <center><h3>CONTACT US</h3>
+                            <p>aiche.nitrkl@gmail.com<br><br>
+                                NIT Rourkela<br>
+                                769008
+                            </p>
+                        </center>
+                    </div>
+                    <div class="col-md-6">
+                        <center>
+                            <h3>CONNECT WITH US</h3>
+                            <a class="external" href="https://www.facebook.com/AIChENITR">AIChE NITRKL <i class="fa fa-facebook-square"></i></a>
+                        </center>
+                    </div>
+                    <div class="col-md-4">
+                        <center>
+    <!--                        <h3>SUBSCRIBE</h3>
+    -----------------------------------Newsletter Form-----------
+                            <input type="text" placeholder="Email Address" id="email_s">
+                            <input class="button2 glow-button2" type="submit" value="submit" placeholder="submit" onclick="newsletter();">
+                            <div id="newsletter1"></div>
+    <!---------------------------------------------------------------->           
+                        </center>
+                    </div>
+                </div>
+            </div>
+    
+            <div style="background-color:rgba(17, 22, 65, 0.897); color: #FFFFFF; font-size: 1.2em; padding-top: 2.5%;padding-bottom: 2.5%;">
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <center><h4>REGISTERED NUMBER</h4></center>
+                        </div>
+                        <div class="col-xs-4">
+                            <center><h4>Karan Saxena : 8117054052</h4></center>
+                        </div>
+                        <div class="col-xs-4">
+                            <center><h4>Ayushmann Panda : 8847874560</h4></center>
+                        </div>
+                    </div>
+                </div>
+                
+        </footer>
+    
+        <div id="copyright" style="background-color:rgb(17, 22, 65); color: #FFFFFF; padding-top: 2.5%;padding-bottom: 2.5%; padding: 2.5%">
+            <p style= "text-align: center;">AIChE NIT Rourkela Student Chapter | &copy; All rights reserved by AIChE NITRKL</p>
+    
+        </div>
+    </div>
+    </body>
+    </html>
