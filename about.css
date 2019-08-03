@@ -8,7 +8,7 @@
 }
 
 .col2 {
-    height: 700px;
+    height: 275px;
     background-color: white;
     padding-right: 5px;
     padding-left: 5px;
@@ -16,8 +16,10 @@
 
 .col2 img {
     width: 100%;
-    height: 40%;
+    height: 100%;
+    padding:2px;
 }
+
 
 
 .bottom {
