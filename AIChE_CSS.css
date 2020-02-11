@@ -14,7 +14,9 @@ background: linear-gradient(to right, #0072ff, #0a68a7); /* W3C, IE 10+/ Edge, F
 
 	color: #ffffff;
 }
-
+.achievements{
+		background: #a4d2df;
+}
 @media (min-width:769px){
 	.content1{
 		font-size: 1.5em;
@@ -174,5 +176,8 @@ background: linear-gradient(to right, #0072ff, #0a68a7); /* W3C, IE 10+/ Edge, F
 	.empty_container{
 		padding: 1%;
 	}
+}
+.row{
+	margin-left:0 !important;
 }
 /*-----------------------------------------------------------------------*/
