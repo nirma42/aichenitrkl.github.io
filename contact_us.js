@@ -1,10 +1,14 @@
 function openNav() {
-    document.getElementById("open").style.display = "none";
+    $("#open").css({
+        "visibility":"hidden",
+    });
     document.getElementById("menu").style.width = "100%";
 }
 function closeNav() {
     document.getElementById("menu").style.width = "0";
-    document.getElementById("open").style.display = "block";
+    $("#open").css({
+        "visibility":"visible",
+    });
 }
 
 function show_hide() {
