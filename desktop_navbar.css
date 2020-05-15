@@ -221,3 +221,20 @@ html, body {
         border-radius: 0;
         }
 }
+
+@media only screen and (max-width:400px) {
+    .nitr_logo {
+       float:right;
+       width: 50px;
+       height: 50px;
+       padding: 4px;
+       margin: 50px 45px 0 50px;
+       }
+   
+     .nitr_logo_Under_Sac {
+       float:right;
+       width:100px;
+       margin: 5px 20px 0 0;
+       border-radius: 0;
+       }
+}
