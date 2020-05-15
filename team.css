@@ -28,6 +28,10 @@ body p {
     color:#000000;
 }
 
+footer p {
+    color: #ffffff;
+}
+
 @media only screen and (max-width:935px) {
     .img1 {
         width:100%;
