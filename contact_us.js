@@ -4,11 +4,14 @@ function openNav() {
     });
     document.getElementById("menu").style.width = "100%";
 }
-function closeNav() {
-    document.getElementById("menu").style.width = "0";
-    $("#open").css({
-        "visibility":"visible",
-    });
+
+if($(window).width() <= 800) {
+    function closeNav() {
+        document.getElementById("menu").style.width = "0";
+        $("#open").css({
+            "visibility":"visible",
+        });
+    }
 }
 
 function show_hide() {
@@ -18,4 +21,6 @@ function show_hide() {
     }else{
         click.style.display = "none";
     }
+    
 }
+

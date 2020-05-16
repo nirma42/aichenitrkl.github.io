@@ -164,6 +164,9 @@ background: linear-gradient(to right, #0072ff, #0a68a7); /* W3C, IE 10+/ Edge, F
         width: 100%;
         height: 10%;
         display: block;
+	}
+	.container3{
+		font-size:1em;
     }
 }
 
