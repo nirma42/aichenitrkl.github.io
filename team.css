@@ -17,8 +17,9 @@ img {
 }*/
 
 .sid {
-  width: 350px;
-  height: 350px;
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
   border-radius: 50%;
 }
 
@@ -82,5 +83,14 @@ footer p {
 @media only screen and (max-width: 767px) {
   .img1 {
     width: 100%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .sid {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
   }
 }
