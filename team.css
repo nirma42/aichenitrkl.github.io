@@ -88,8 +88,8 @@ footer p {
 
 @media only screen and (min-width: 992px) {
   .sid {
-    width: 300px;
-    height: 300px;
+    width: 325px;
+    height: 325px;
     object-fit: cover;
     border-radius: 50%;
   }
