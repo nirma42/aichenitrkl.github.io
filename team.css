@@ -1,80 +1,86 @@
-body{
-    background-color:rgba(243, 180, 55, 0.24);
+body {
+  background-color: rgba(243, 180, 55, 0.24);
 }
-img{
-    border-radius: 50%;
+img {
+  border-radius: 50%;
 }
 
 .img1 {
-    width:50%;
-    text-align: center;
-    padding: 20px;
+  width: 50%;
+  text-align: center;
+  padding: 20px;
 }
 
+/*.sid {
+  width: 50%;
+  text-align: center;
+}*/
+
 .sid {
-    width:50%;
-    text-align: center;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
 }
 
 .row1 {
-    margin: 0;
-    /*background-color:rgba(243, 240, 55, 0.822);*/
-    padding-top: 10px;
-    padding-bottom: 5px;
-    text-align:center;
+  margin: 0;
+  /*background-color:rgba(243, 240, 55, 0.822);*/
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: center;
 }
 
 body p {
-    color:#000000;
+  color: #000000;
 }
 
 footer p {
-    color: #ffffff;
+  color: #ffffff;
 }
 
-@media only screen and (max-width:935px) {
-    .img1 {
-        width:100%;
-    }
-    
-    .sid {
-        width:90%;
-    }
-    .row1 {
-        width:100%;
-        margin: 0;
-        /*background-color:rgba(243, 240, 55, 0.822);*/
-        padding-top: 0;
-        padding-bottom:0;
-    }
+@media only screen and (max-width: 935px) {
+  .img1 {
+    width: 100%;
+  }
+
+  .sid {
+    width: 90%;
+  }
+  .row1 {
+    width: 100%;
+    margin: 0;
+    /*background-color:rgba(243, 240, 55, 0.822);*/
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
 
-@media only screen and (max-width:800px) and (min-width:768px) {
-    .sid {
-        width:50.01%;
-        padding:3%;
-        margin:0 200px 0 0;
-    }
+@media only screen and (max-width: 800px) and (min-width: 768px) {
+  .sid {
+    width: 50%;
+    padding: 3%;
+    margin: 0 200px 0 0;
+  }
 
-    .sid1 {
-        margin: 0 0 0 -200px;
-    }
+  .sid1 {
+    margin: 0 0 0 -200px;
+  }
 
-    .sid2 {
-        margin: 0 200px 0 0;
-    }
+  .sid2 {
+    margin: 0 200px 0 0;
+  }
 
-    .img1 {
-        width:50%;
-    }
+  .img1 {
+    width: 50%;
+  }
 
-    .row1 {
-        margin: 0 0 0 105px;
-    }
+  .row1 {
+    margin: 0 0 0 105px;
+  }
 }
 
-@media only screen and (max-width:767px) {
-    .img1 {
-        width:100%;
-}
+@media only screen and (max-width: 767px) {
+  .img1 {
+    width: 100%;
+  }
 }
