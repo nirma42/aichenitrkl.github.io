@@ -86,11 +86,11 @@ footer p {
   }
 }
 
-@media only screen and (min-width: 992px) {
+/*@media only screen and (min-width: 992px) {
   .sid {
     width: 325px;
     height: 325px;
     object-fit: cover;
     border-radius: 50%;
   }
-}
+}*/
