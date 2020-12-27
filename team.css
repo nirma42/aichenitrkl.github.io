@@ -11,17 +11,17 @@ img {
   padding: 20px;
 }
 
-/*.sid {
+.sid {
   width: 50%;
   text-align: center;
-}*/
+}
 
-.sid {
+/*.sid {
   width: 50%;
   height: 50%;
   object-fit: cover;
   border-radius: 50%;
-}
+}*/
 
 .row1 {
   margin: 0;
