@@ -1,74 +1,44 @@
-var slideIndex = 1;
-function slide(){
-    // window size dependent part
-    if(window.screen.width < 425){
-    console.log(window.screen.width);
-    var dots = document.getElementsByClassName("column");
-    for (i = 0; i < dots.length; i++) {
-    dots[i].style.width="1%";
-    dots[i].style.height="1%";
-    }
-}
-else{
-    console.log(window.screen.width);
-    var dots = document.getElementsByClassName("column");
-    for (i = 0; i < dots.length; i++) {
-    dots[i].style.width="16.66%";
-    }
-}
-// window size dependent part ends
+var modal = document.getElementById("myModal");
 
-// carousel speed = 3000ms = 3sec
-    setInterval(function(){
-        console.log(slideIndex);
-        slideIndex +=1;
-        showSlides(slideIndex);
-        },
-        5000);
-    }
-    
-    function slide_keys(event) {
-    console.log(event.key);
-    var x = event.key;
-    if (x === "ArrowLeft"){
-        plusSlides(-1);
-        return false;
-    }
-    if(x === "ArrowRight"){
-        plusSlides(1);
-        return false;
-    }
-    
+function slide_keys(event) {
+  // console.log(event.key);
+  var x = event.key;
+  if (x === "ArrowLeft"){
+      plusSlides(-1);
+      return false;
   }
-
-showSlides(slideIndex);
+  if(x === "ArrowRight"){
+      plusSlides(1);
+      return false;
+  }
+}
 
 function plusSlides(n) {
-    console.log("next");
-    var dots = document.getElementsByClassName("demo");
-    showSlides(slideIndex += n);
+  // console.log("next");
+  showSlides(slideIndex += n);
 }
 
 function currentSlide(n) {
-    showSlides(slideIndex = n);
+  showSlides(slideIndex = n);
 }
 
 function showSlides(n) {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("demo");
-    var captionText = document.getElementById("caption");
-    if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("img");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  modal.style.display = "block";
+  for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
     dots[i].className = dots[i].className.replace(" active", "");
     dots[i].style.border = "0px solid black";
-    }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
-    dots[slideIndex-1].style.border = "1px solid black";
-    captionText.innerHTML = dots[slideIndex-1].alt;
+    dots[i].style.opacity = 1;
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  dots[slideIndex-1].style.opacity = 1;
+  dots[slideIndex-1].style.border = "1px solid black";
+  captionText.innerHTML = dots[slideIndex-1].alt;
 }
-
-slide();

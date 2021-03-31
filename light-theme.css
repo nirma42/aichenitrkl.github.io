@@ -149,3 +149,20 @@
   width:100%;
   position:absolute;
   }
+
+  .carousel{
+    width:65.88%;
+    height:20.88%;
+    margin:auto;
+  }
+
+  @media screen and (max-width: 425px) {
+    .carousel{
+      background-color: #03a9f4;
+      margin-left: 0%;
+      margin-right: 0%;
+      margin-bottom: 0%;
+      width: 100%;
+      height: 100%;
+    }
+  }
