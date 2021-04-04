@@ -1,16 +1,19 @@
 var modal = document.getElementById("myModal");
 
 function slide_keys(event) {
-  // console.log(event.key);
-  var x = event.key;
-  if (x === "ArrowLeft"){
-      plusSlides(-1);
-      return false;
+  if (modal.style.display == "block"){
+    console.log(event.key);
+    var x = event.key;
+    if (x === "ArrowLeft"){
+        plusSlides(-1);
+        return false;
+    }
+    if(x === "ArrowRight"){
+        plusSlides(1);
+        return false;
+    }
   }
-  if(x === "ArrowRight"){
-      plusSlides(1);
-      return false;
-  }
+  
 }
 
 function plusSlides(n) {
@@ -24,8 +27,8 @@ function currentSlide(n) {
 
 function showSlides(n) {
   var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("img");
+  var slides = document.getElementsByClassName("mySlidesuu");
+  var dots = document.getElementsByClassName("imguu");
   var captionText = document.getElementById("caption");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
@@ -41,4 +44,9 @@ function showSlides(n) {
   dots[slideIndex-1].style.opacity = 1;
   dots[slideIndex-1].style.border = "1px solid black";
   captionText.innerHTML = dots[slideIndex-1].alt;
+}
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
 }
