@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta http-equiv="X-UA-compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="gallery_new.css">
+    <title>gallery</title>
+</head>
+
+<body onkeydown="slide_keys(event)">
+    <div class="background" >
+    <h2 style="font-size:180%;">AIChE NITR Family</h2>
+    <div class="container">
+        <div class="image">
+            <img class="img" src="2.jpg" style="width:100%;" onclick="currentSlide(1)" alt="MIT Pune Syntropy NITR Chem-E-Car team">
+        </div>
+        <div class="image">
+            <img class="img" src="3_.jpg" style="width:100%" onclick="currentSlide(2)" alt="2nd runners up team of 1st Chem-E-Car competition held during Innovision">
+        </div>
+        <div class="image">
+            <img class="img" src="6_.jpg" style="width:100%" onclick="currentSlide(3)" alt="AIChE NITR's K-12 event during EDGE 2019">
+        </div>
+        <div class="image">
+            <img class="img" src="7_.jpg" style="width:100%" onclick="currentSlide(4)" alt="ASC 19 2nd prize in CEJ">
+        </div>
+        <div class="image">
+            <img class="img" src="12_.jpg" style="width:100%" onclick="currentSlide(5)" alt="SRC'19 2nd in CEJ">
+        </div>
+        <div class="image">
+            <img class="img" src="5_.jpg" style="width:100%" onclick="currentSlide(6)" alt="AIChE NITR's K-12 event at DPS Rourkela">
+        </div>
+        <div class="image">
+            <img class="img" src="4_.jpg" style="width:100%;" onclick="currentSlide(7)" alt="3 years of EB of AIChE NIT Rourkela 2018-19">
+        </div>
+        <div class="image">
+            <img class="img" src="8_.jpg" style="width:100%" onclick="currentSlide(8)" alt="Chem-E-Car 2.0 competitor cars display">
+        </div>
+        <div class="image">
+            <img class="img" src="1_.jpg" style="width:100%;" onclick="currentSlide(9)" alt="AIChE Family 2019">
+        </div>
+        <div class="image">
+            <img class="img" src="9_.jpg" style="width:100%" onclick="currentSlide(10)" alt="Game of Chems during Innovision of 2019">
+        </div>
+        <div class="image">
+            <img class="img" src="10_.jpg" style="width:100%" onclick="currentSlide(11)" alt="Manuever 3.0 winners and Coordinators">
+        </div>
+        <div class="image">
+            <img class="img" src="11_.jpg" style="width:100%" onclick="currentSlide(12)" alt="MIT Pune Syntropy Chem-E-Car competition">
+        </div>
+        
+        
+        <div id="myModal" class="modal">
+            
+            <div class="mySlides">
+                <img src="MIT Pune Syntropy NITR Chem-E-Car team.jpg" style="width:100%">
+                <div class="numbertext">1 / 12</div>
+                <span onclick="this.parentElement.parentElement.style.display='none'" class="close">&times;</span>
+            </div>
+            
+            <div class="mySlides">
+                <img src="2nd runners up team of 1st Chem-E-Car competition held during Innovision.jpg" style="width:100%">
+                <div class="numbertext">2 / 12</div>
+                <span onclick="this.parentElement.parentElement.style.display='none'" class="close">&times;</span>
+              </div>
+              
+              <div class="mySlides">
+                  <img src="AIChE NITR's K-12 event during EDGE 2019.jpg" style="width:100%">
+                  <div class="numbertext">3 / 12</div>
+                <span onclick="this.parentElement.parentElement.style.display='none'" class="close">&times;</span>
+            </div>
+            
+            <div class="mySlides">
+                <img src="ASC 19 2nd prize in CEJ.jpg" style="width:100%">
+                <div class="numbertext">4 / 12</div>
+                <span onclick="this.parentElement.parentElement.style.display='none'" class="close">&times;</span>
+            </div>
+            
+            <div class="mySlides">
+                <img src="SRC'19 2nd in CEJ.jpg" style="width:100%">
+                <div class="numbertext">5 / 12</div>
+                <span onclick="this.parentElement.parentElement.style.display='none'" class="close">&times;</span>
+            </div>
+            
+            <div class="mySlides">
+                <img src="AIChE NITR's K-12 event at DPS Rourkela.jpg" style="width:100%">
+                <div class="numbertext">6 / 12</div>
+                <span onclick="this.parentElement.parentElement.style.display='none'" class="close">&times;</span>
+            </div>
+            
+            <div class="mySlides">
+                <img src="3 years of EB of AIChE NIT Rourkela 2018-19.jpg" style="width:100%">
+                <div class="numbertext">7 / 12</div>
+                <span onclick="this.parentElement.parentElement.style.display='none'" class="close">&times;</span>
+            </div>
+            
+            <div class="mySlides">
+                <img src="Chem-E-Car 2.0 competitor cars display.jpg" style="width:100%">
+                <div class="numbertext">8 / 12</div>
+                <span onclick="this.parentElement.parentElement.style.display='none'" class="close">&times;</span>
+            </div>
+            
+            <div class="mySlides">
+                <img src="AIChE Family 2019.jpg" style="width:100%">
+                <div class="numbertext">9 / 12</div>
+                <span onclick="this.parentElement.parentElement.style.display='none'" class="close">&times;</span>
+            </div>
+            
+            <div class="mySlides">
+                <img src="Game of Chems during Innovision of 2019.jpg" style="width:100%">
+                <div class="numbertext">10 / 12</div>
+                <span onclick="this.parentElement.parentElement.style.display='none'" class="close">&times;</span>
+            </div>
+            
+            <div class="mySlides">
+                <img src="Manuever 3.0 winners and Coordinators.jpg" style="width:100%">
+                <div class="numbertext">11 / 12</div>
+                <span onclick="this.parentElement.parentElement.style.display='none'" class="close">&times;</span>
+            </div>
+            
+            <div class="mySlides">
+                <img src="MIT Pune Syntropy Chem-E-Car competition.jpg" style="width:100%">
+                <div class="numbertext">12 / 12</div>
+                <span onclick="this.parentElement.parentElement.style.display='none'" class="close">&times;</span>
+            </div>
+              <!-- carousel ends -->
+                
+              <a class="prev" onclick="plusSlides(-1)">❮</a>
+              <a class="next" onclick="plusSlides(1)">❯</a>
+              
+              <div class="caption-container">
+                  <p id="caption"></p>
+                </div>
+            </div>
+            <script src="gallery_new.js"></script>
+        </div>
+    </div>
+</body>
