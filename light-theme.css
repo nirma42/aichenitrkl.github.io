@@ -5,8 +5,9 @@
 /*@media (prefers-color-scheme: dark) {
   /* all your styles for dark mode here */
 /*}*/
-
-
+*{
+  scroll-behavior: smooth;
+}
 
 
 
@@ -110,6 +111,64 @@ body {
   padding-right: 15px;
 }
 
+.list-unstyled{
+  font-size: larger;
+}
+
+.textfoot{
+  font-size: larger;
+}
+
+#button {
+  display: inline-block;
+  background-color: #5f10f2;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+@media (min-width: 500px) {
+  #button {
+    margin: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .textfoot{
+    font-size: 13px;
+  }
+}
+.btn{
+  margin: 1%;
+
+}
 
 /*.container{
   background-color: blueviolet;
@@ -122,17 +181,6 @@ body {
 /*.imuppp{
   height: 700px;
 }*/
-
-
-.extracsswhole{
-transition: 0.2s;
-background: linear-gradient(315deg,#03a9f4,#ff0058);
-}
-
-.extracsswhole:hover {
-transform: translateY(-1.5%);
-box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.2);
-}
 
 
 
@@ -299,7 +347,6 @@ body {
  transition: transform calc(var(--d) * 2) var(--e);
 }
 .carduuuu:nth-child(1):before {
- /*background-image: url(https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);*/
  background-image: url("imagesteam/Carrer_page.jpg");
 }
 .carduuuu:nth-child(2):before {
@@ -309,14 +356,40 @@ body {
  background-image: url("imagesteam/K-12_gravitation.jpg");
 }
 .carduuuu:nth-child(4):before {
- background-image: url(https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+ background-image: url("imagesteam/Event (2).jpeg");
+}
+.carduuuu:nth-child(5):before {
+ background-image: url("imagesteam/Event (1).jpeg");
+}
+.carduuuu:nth-child(6):before {
+ background-image: url("imagesteam/Bid_n_win.jpg");
+}
+.carduuuu:nth-child(7):before {
+  background-image: url("imagesteam/Event (3).jpeg");
+}
+.carduuuu:nth-child(8):before {
+ background-image: url("imagesteam/Event (5).jpeg");
+}
+.carduuuu:nth-child(9):before {
+ background-image: url("imagesteam/Event (4).jpeg");
+}
+.carduuuu:nth-child(10):before {
+ background-image: url("imagesteam/Event (6).jpeg");
+}
+.carduuuu:nth-child(11):before {
+ background-image: url("imagesteam/Art_e_culate.jpg");
+}
+.carduuuu:nth-child(12):before {
+ background-image: url("imagesteam/Event (8).jpeg");
 }
 .contentuuuu {
  position: relative;
  display: flex;
  flex-direction: column;
  align-items: center;
- width: 100%;
+ width: 80%;
+ margin-left: 10%;
+ margin-right: 10%;
  padding: 1rem;
  transition: transform var(--d) var(--e);
  z-index: 1;
