@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 body{
-  background: url('newimage/background.jpg');
+  /* background: url('newimage/background.jpg'); */
   background-size:contain ;
 }
 .Team{
@@ -9,9 +9,9 @@ body{
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins',sans-serif;
-  padding: 50px;
+  padding: 1%;
   text-align: center;
-  background: url('background.jpg');
+  /* background: url('background.jpg'); */
   background-size:contain ;
   display: flex;
   flex-wrap: wrap;
@@ -26,8 +26,8 @@ h1{
 }
 
 .containeru{
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
   overflow: hidden;
   margin: 10% auto;
   border-radius: 50%;
@@ -39,8 +39,8 @@ h1{
   margin: 5%;
 }
 .containeru:hover{
-  height: 470px;
-  width: 350px;
+  height: 390px;
+  width: 280px;
   border-radius: 5px;
   box-shadow: 0px 1px 35px 0px rgba(0,0,0,0.3);
 }
@@ -49,16 +49,16 @@ h1{
   z-index: 20;
   border-radius: 50%;
   display: block;
-  height: 200px;
-  width: 200px;
+  height: 180px;
+  width: 180px;
   border: 5px solid #fff;
   object-fit: cover;
-  margin: 20px auto;
+  margin: 5% auto;
   transition: all 0.3s ease;
 }
 .containeru:hover .wrapper img.active{
-  height: 470px;
-  width: 350px;
+  height: 390px;
+  width: 280px;
   margin: 0px auto;
   border: none;
   border-radius: 5px;
