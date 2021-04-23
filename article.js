@@ -137,6 +137,24 @@ function myfunction12(){
 }
 
 
+function myfunction_1(){
+    sessionStorage.setItem("points", -1);
+    location.href = "article.html";
+}
+
+function myfunction_2(){
+    sessionStorage.setItem("points", -2);
+    location.href = "article.html";
+}
+
+function myfunction_3(){
+    sessionStorage.setItem("points", -3);
+    location.href = "article.html";
+}
+
+
+
+
 
 
 
@@ -244,6 +262,33 @@ else if(sessionStorage.getItem("points") == 12){
     document.getElementById('myImage').src="imagesteam/Carrer_page.jpg";
     var element1 = document.getElementById("id02");
     element1.innerHTML = "Engineering is a vast field of study and is categorized under many branches. Consequently, it is very difficult for someone to know about all of those branches and the prospects and opportunities that come along with it. Career decisions are often confusing and are a rally important part of a student’s life as they have to stick with their decision for the rest of their lives. To ease their troubles in this matter our chapter’s K-12 division organized career fair where panelists from all the engineering streams were called to give a presentation on the prospects and opportunities of their respective branches. Students from class seven to twelve were called to participate from various schools under the coordination of our team and the respective faculties of the participating institutes. This three-day long event was a success overall and it also helped a lot of students to clarify their doubts on what branch they could pursue in their undergraduate years.";
+}
+
+
+else if(sessionStorage.getItem("points") == -1){
+    var element = document.getElementById("id01");
+    element.innerHTML = "Professional Development Week";
+    document.getElementById('myImage').src="imagesteam/Carrer_page.jpg";
+    var element1 = document.getElementById("id02");
+    element1.innerHTML = "Engineering is a vast field of study and is categorized under many branches. Consequently, it is very difficult for someone to know about all of those branches and the prospects and opportunities that come along with it. Career decisions are often confusing and are a rally important part of a student’s life as they have to stick with their decision for the rest of their lives. To ease their troubles in this matter our chapter’s K-12 division organized career fair where panelists from all the engineering streams were called to give a presentation on the prospects and opportunities of their respective branches. Students from class seven to twelve were called to participate from various schools under the coordination of our team and the respective faculties of the participating institutes. This three-day long event was a success overall and it also helped a lot of students to clarify their doubts on what branch they could pursue in their undergraduate years.";
+}
+
+
+else if(sessionStorage.getItem("points") == -2){
+    var element = document.getElementById("id01");
+    element.innerHTML = "Career Fair";
+    document.getElementById('myImage').src="imagesteam/Carrer_page.jpg";
+    var element1 = document.getElementById("id02");
+    element1.innerHTML = "Engineering is a vast field of study and is categorized under many branches. Consequently, it is very difficult for someone to know about all of those branches and the prospects and opportunities that come along with it. Career decisions are often confusing and are a rally important part of a student’s life as they have to stick with their decision for the rest of their lives. To ease their troubles in this matter our chapter’s K-12 division organized career fair where panelists from all the engineering streams were called to give a presentation on the prospects and opportunities of their respective branches. Students from class seven to twelve were called to participate from various schools under the coordination of our team and the respective faculties of the participating institutes. This three-day long event was a success overall and it also helped a lot of students to clarify their doubts on what branch they could pursue in their undergraduate years.";
+}
+
+
+else if(sessionStorage.getItem("points") == -3){
+    var element = document.getElementById("id01");
+    element.innerHTML = "Navdhara";
+    document.getElementById('myImage').src="imagesteam/Gramkatha.jpg";
+    var element1 = document.getElementById("id02");
+    element1.innerHTML = "India has a very large percentage of Rural population and it is very important for us to realize the impact that growing industries, subsequent neglect of safety standards and irresponsibility in general is having on them. The purpose of Navdhara was to spread awareness about the current rural situation and the problems that they are facing along with innovative solutions that can be utilized to counter those problems. With Koel Fresh as our industrial partner we tried to reach a very wide range of audience. Navdhara consisted of a poster making competition, a blog writing competition and an Industrial design problem task with cash rewards for winners of each competition. The event also consisted of a webinar by Asutosh Nayak (Co-Founder and Chief Advisor, SEE Green Technologies) and Kehkashan Basu (Founder of Green Hope Foundation, United Nations). The entire event was a huge success as it got featured in the local newspapers and lauded by all the participants and advisors.";
 }
 
 
