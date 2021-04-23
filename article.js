@@ -268,9 +268,9 @@ else if(sessionStorage.getItem("points") == 12){
 else if(sessionStorage.getItem("points") == -1){
     var element = document.getElementById("id01");
     element.innerHTML = "Professional Development Week";
-    document.getElementById('myImage').src="imagesteam/Carrer_page.jpg";
+    document.getElementById('myImage').src="imagesteam/Professional_Development_Week.jpg";
     var element1 = document.getElementById("id02");
-    element1.innerHTML = "Engineering is a vast field of study and is categorized under many branches. Consequently, it is very difficult for someone to know about all of those branches and the prospects and opportunities that come along with it. Career decisions are often confusing and are a rally important part of a student’s life as they have to stick with their decision for the rest of their lives. To ease their troubles in this matter our chapter’s K-12 division organized career fair where panelists from all the engineering streams were called to give a presentation on the prospects and opportunities of their respective branches. Students from class seven to twelve were called to participate from various schools under the coordination of our team and the respective faculties of the participating institutes. This three-day long event was a success overall and it also helped a lot of students to clarify their doubts on what branch they could pursue in their undergraduate years.";
+    element1.innerHTML = "AIChE NITR is eager to announce the commencement of its Professional Development week and here is the very first program of it - the Aptitude Test. Every competitive exam, irrespective of its nature and levels like GATE, CAT, UPSC, GMAT, and others demands a certain amount of adeptness in the arena of logic, thinking and reasoning. One must be truly fluent and familiar with every aspect of it to achieve a good score. Think you have what it takes? Well, try yourself out by taking an Aptitude Test this Friday (23.04.2021), and test your skills. Interested candidates can register through the link below: <a href='http://bit.ly/AIChE-AptitudeTest'>http://bit.ly/AIChE-AptitudeTest</a> ";
 }
 
 
