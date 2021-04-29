@@ -89,6 +89,39 @@ body {
   border-bottom: 1px solid #ddd;
   padding: 10px; }
 
+  .checkbox {
+    opacity: 0;
+    position: absolute;
+  }
+  
+  .checkbox:checked + .toggle {
+    background-color: #eee;
+    box-shadow: -8px -7px inset #ddd;
+  }
+  
+  .checkbox:checked + .toggle {
+    transform: rotateY(180deg);
+  }
+  
+  .checkbox:checked + .toggle ul {
+    display: none;
+  }
+  
+  .toggle {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    /* background-color: #eee;
+    box-shadow: -8px -7px inset #ddd; */
+    background-color: #ffcb05;
+    box-shadow: none;
+    border-radius: 50px;
+    position: relative;
+    cursor: pointer;
+    margin: auto;
+    transition: all 300ms ease-in;
+    transform-style: preserve-3d;
+  }
 .carousel {
   background: black; }
   .carousel .carousel-item {
@@ -343,7 +376,57 @@ body {
 }
 
 
+/* social media icons */
+.icon-bar {
+  position: fixed;    
+  top: 30%;                                                                                                          
+  right: 0%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+  width: 5%;
+}
 
+.icon-bar a {
+  margin-right: 0%;
+  display: block;
+  text-align: center;
+  padding-left: 2%;
+  padding-right: 0%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  transition: all 0.6s ease;
+  color: white;
+  font-size: 4vmin;
+}
+
+.icon-bar a:hover {
+  padding-right: 30%;
+}
+
+.facebook {
+  background: #3B5998;
+  color: #ffffff;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: #ffffff;
+}
+
+
+.instagram {
+  background: #f26d00;
+  color: #ffffff;
+}
+
+
+.youtube {
+  background: #bb0000;
+  color: #ffffff;
+}
+
+.mail {
+  background: #bb003e;
+  color: #ffffff;
+}
 
 
 

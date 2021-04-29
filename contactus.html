@@ -40,27 +40,29 @@
                         <li class="nav-item"><a class="nav-link" href="gallery.html"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Gallery</a></li>
                 </ul>
             </div>
-            <div id="darkmodesetting">
-                <button id="theme-toggle" onclick="myFunction()">Dark Mode</button>
-            </div>
+            <!-- <div id="darkmodesetting">
+              <button id="theme-toggle" onclick="myFunction()">Dark Mode</button>
+          </div> -->
+          <input type="checkbox" class="checkbox" id="toggle-mode" onclick="myFunction()"> 
+          <label for="toggle-mode" class="toggle" >
         </div>
     </nav>
 
-    <header class="jumbotrone darktheme">
+    <!-- <header class="jumbotrone darktheme">
         <div class="container">
             <div class="row row-header">
                 <div class="col-12 col-sm-12">
                     <h1 class="textucss" style="font-family: 'Merriweather', serif;">AIChE NITR</h1>
                     <p class="textucss">We take inspiration from the World's best leaders, and create a unique fusion experience. Our unique creations will make you to be part of this organization.</p>
                 </div>
-                <!--<div class="col-12 col-sm">
-                </div>-->
+                <div class="col-12 col-sm">
+                </div>
             </div>
-        </div>
-    </header>
+        </div> 
+    </header>-->
 
     <div class="container">
-        <div class="row">
+        <!-- <div class="row">
             <ol class="col-12 breadcrumb">
                 <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
                 <li class="breadcrumb-item active">Contact Us</li>
@@ -69,9 +71,9 @@
                <h3 class="whitecol">Contact Us</h3>
                <hr style="background-color: white;">
             </div>
-        </div>
+        </div> -->   
 
-        <div class="row row-content">
+        <!-- <div class="row row-content">
            <div class="col-12">
               <h3 class="textucss" style="font-family: 'Merriweather', serif;">Location Information</h3>
            </div>
@@ -86,23 +88,23 @@
                   <i class="fa fa-envelope"></i>:
                         <a href="#">aiche.nitrkl@gmail.com</a>
                </address>
-            </div>
-            <div class="col-12 col-sm-6 offset-sm-1">
+            </div> -->
+            <!-- <div class="col-12 col-sm-6 offset-sm-1">
                 <h5 class="textucss" style="font-family: 'Merriweather', serif;">Map of our Location</h5>
                 <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
                     <iframe src="https://maps.google.com/maps?q=Jindal%20colony,Bisra%20Road%20National%20Institute%20Of%20Technology,Rourkela,Odisha%20769001&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
                       style="border:0" allowfullscreen></iframe>
                 </div>
-                <!--<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Jindal%20colony,Bisra%20Road%20National%20Institute%20Of%20Technology,Rourkela,Odisha%20769001&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://yt2.org">youtube mp3 rip</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>-->
-            </div>
-            <div class="col-12 col-sm-11 offset-sm-1">
+                <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Jindal%20colony,Bisra%20Road%20National%20Institute%20Of%20Technology,Rourkela,Odisha%20769001&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://yt2.org">youtube mp3 rip</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
+            </div> -->
+            <!-- <div class="col-12 col-sm-11 offset-sm-1">
                 <div class="btn-group" role="group">
                     <a role="button" class="btn btn-primary" href="tel:+91 97770 40640"><i class="fa fa-phone"></i> Call</a>
-                    <!--<a role="button" class="btn btn-info"><i class="fa fa-skype"></i> Skype</a>-->
+                    <a role="button" class="btn btn-info"><i class="fa fa-skype"></i> Skype</a>
                     <a role="button" class="btn btn-success" href="mailto:aiche.nitrkl@gmail.com"><i class="fa fa-enveolpe-o"></i> Email</a>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <div class="row row-content">
            <div class="col-12">
@@ -177,7 +179,7 @@
     <footer class="footer fuecss">
         <div class="container">
             <div class="row whitecol1">
-                <div class="col-4 col-sm-2">
+                <div class="col-4 col-sm-1">
                     <h5 class="textfoot">Links</h5>
                     <ul class="list-unstyled ">
                         <li><a href="index.html">Home</a></li>
@@ -198,14 +200,23 @@
                     </address>
                 </div>
                 <div class="col-12 col-sm-4">
-                    <div class="">
+                    <!-- <div class="">
                         <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
                         <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/AIChENITR"><i class="fa fa-facebook fa-lg"></i></a>
                         <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/company/aiche-nitr/"><i class="fa fa-linkedin fa-lg"></i></a>
                         <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/aiche.nitrkl/?igshid=l5z85gplv99q"><i class="fa fa-instagram fa-lg"></i></a>
                         <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>
                         <a class="btn btn-social-icon" href="mailto:aiche.nitrkl@gmail.com"><i class="fa fa-envelope-o fa-lg"></i></a>
-                    </div>
+                    </div> -->
+                    <div class="icon-bar">
+                        <a href="https://www.facebook.com/AIChENITR" class="facebook" target="_blank"><i class="fa fa-facebook" target="_blank"></i></a>         
+                        <a href="https://www.linkedin.com/company/aiche-nitr/" class="linkedin" target="_blank"><i class="fa fa-linkedin" target="_blank"></i></a> 
+                        <a href="https://www.instagram.com/aiche.nitrkl/?igshid=l5z85gplv99q" class="instagram" target="_blank"><i class="fa fa-instagram" target="_blank"></i></a> 
+                        <a href="mailto:aiche.nitrkl@gmail.com" class="mail" target="_blank"><i class="fa fa-envelope" target="_blank"></i></a>
+                        <a href="http://youtube.com/" class="youtube" target="_blank"><i class="fa fa-youtube" target="_blank"></i></a>      
+                   </div>
+            
+            
                     <div class="textfoot">
                         <p>Upcoming Events</p>
                         <p>- Ace The Race 24 & 25 April</p>
@@ -214,7 +225,15 @@
                         <p>- Carrier Fair</p>
                     </div>
                 </div>
-                <div class="col-12 col-sm-3 align-self-center textfoot" id="caleandar">
+                <!-- <div class="col-12 col-sm-3 align-self-center textfoot" id="caleandar"> -->
+                    <div class="col-12 col-sm-4 " >
+                <h5 class="textucss" style="font-family: 'Merriweather', serif;">Map of our Location</h5>
+                <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 300px">
+                    <iframe src="https://maps.google.com/maps?q=Jindal%20colony,Bisra%20Road%20National%20Institute%20Of%20Technology,Rourkela,Odisha%20769001&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                      style="border:0" allowfullscreen></iframe>
+                </div>
+                <!-- <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Jindal%20colony,Bisra%20Road%20National%20Institute%20Of%20Technology,Rourkela,Odisha%20769001&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://yt2.org">youtube mp3 rip</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div> -->
+            <!-- </div> -->
                     <!--<iframe src="https://calendar.google.com/calendar/embed?src=vrm9fnedk2rudffmlmesrriri0%40group.calendar.google.com&ctz=Asia%2FKolkata" style="border: 0" width="100%" height="200" frameborder="0" scrolling="no"></iframe>-->
                     <!--<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23B39DDB&amp;ctz=Asia%2FKolkata&amp;src=dnJtOWZuZWRrMnJ1ZGZmbWxtZXNycmlyaTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23616161&amp;showTitle=0&amp;showNav=1&amp;showPrint=0&amp;showTabs=0&amp;showTz=0&amp;showCalendars=1" style="border:solid 1px #777" width="100%" height="200" frameborder="0" scrolling="no"></iframe>-->
                 </div>

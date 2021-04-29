@@ -16,6 +16,10 @@ function slide_keys(event) {
   
 }
 
+// function scrollkeyd (event){
+
+// }
+
 function plusSlides(n) {
   // console.log("next");
   showSlides(slideIndex += n);
