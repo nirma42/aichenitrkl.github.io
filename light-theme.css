@@ -332,11 +332,12 @@ body {
 }*/
 
 /* social media icons */
-.icon-bar {
-  position: fixed;    
-  top: 30%;                                                                                                          
-  right: 0%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
-  width: 5%;
+@media screen and (min-width: 500px) {
+  .icon-bar{
+    position: fixed;    
+    top: 30%;                                                                                                          
+    right: 0%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+    width: 5%;}
 }
 
 .icon-bar a {
@@ -382,6 +383,9 @@ body {
   background: #bb003e;
   color: #ffffff;
 }
+
+  
+
 
 .map-container{
 <<<<<<< HEAD
@@ -786,7 +790,8 @@ body {
     margin:auto;
   }
 
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 425px) {;
+    }
     .carousel{
       background-color: #03a9f4;
       margin-left: 0%;
