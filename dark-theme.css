@@ -377,19 +377,14 @@ body {
 
 
 /* social media icons */
-@media screen and (min-width: 500px){
-  .icon-bar {
-    /* visibility: hidden; */
-    position: fixed;    
-    top: 30%;                                                                                                          
-    right: 0%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
-    width: 5%;
-  }
+.icon-bar{
+  position: fixed;    
+  top: 30%;                                                                                                          
+  right: 0%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+  width: 5%;}
   
-}
-
-.icon-bar a {
-  margin-right: 0%;
+  .icon-bar a {
+    margin-right: 0%;
   display: block;
   text-align: center;
   padding-left: 2%;
@@ -432,6 +427,14 @@ body {
   color: #ffffff;
 }
 
+
+@media screen and (max-width: 500px) {
+  .icon-bar{
+    position: inherit;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+    width: 8.2%;
+  }
+  
+}
 
 
 

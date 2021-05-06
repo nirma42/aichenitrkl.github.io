@@ -270,7 +270,7 @@ else if(sessionStorage.getItem("points") == -1){
     element.innerHTML = "Professional Development Week";
     document.getElementById('myImage').src="imagesteam/professional_Development_Week.jpg";
     var element1 = document.getElementById("id02");
-    element1.innerHTML = "AIChE NITR is eager to announce the commencement of its Professional Development week and here is the very first program of it - the Aptitude Test. Every competitive exam, irrespective of its nature and levels like GATE, CAT, UPSC, GMAT, and others demands a certain amount of adeptness in the arena of logic, thinking and reasoning. One must be truly fluent and familiar with every aspect of it to achieve a good score. Think you have what it takes? Well, try yourself out by taking an Aptitude Test this Friday (23.04.2021), and test your skills. Interested candidates can register through the link below: <a href='http://bit.ly/AIChE-AptitudeTest'>http://bit.ly/AIChE-AptitudeTest</a> ";
+    element1.innerHTML = "AIChE NITR is eager to announce the commencement of its Professional Development week and here is the very first program of it - the Aptitude Test. Every competitive exam, irrespective of its nature and levels like GATE, CAT, UPSC, GMAT, and others demands a certain amount of adeptness in the arena of logic, thinking and reasoning. One must be truly fluent and familiar with every aspect of it to achieve a good score. Think you have what it takes? Well, try yourself out by taking an Aptitude Test (10.05.2021), and test your skills. Interested candidates can register through the link below: <a target = '_blank' href='http://bit.ly/apti-test_AICHE'>http://bit.ly/AIChE-AptitudeTest</a> ";
 }
 
 
