@@ -87,9 +87,14 @@ function myFunction() {
       theme.setAttribute('href', 'dark-theme.css'); 
       var elementi1 = document.getElementById("theme-toggle");
       document.getElementById('changeimage').src="imagesteam/missions-dark-01.jpg";
+      document.getElementById('changeim').src="imagesteam/dark_mode.png";
+      
+
   } else { 
       theme.setAttribute('href', 'light-theme.css'); 
       var elementi2 = document.getElementById("theme-toggle");
       document.getElementById('changeimage').src="imagesteam/missions-01.jpg";
+      document.getElementById('changeim').src="imagesteam/light_mode.jpg";
+
   } 
 } 
