@@ -557,52 +557,41 @@ body {
  transform: translateY(-50%);
  transition: transform calc(var(--d) * 2) var(--e);
 }
+
 .carduuuu:nth-child(1):before {
-  background-image: url("imagesteam/Inter-jeopardy.jpeg");
- }
- .carduuuu:nth-child(2):before {
-  background-image: url("imagesteam/Dcrypt.jpeg");
- }
- .carduuuu:nth-child(3):before {
-  background-image: url("imagesteam/decoding.jpeg");
- }
- .carduuuu:nth-child(4):before {
-  background-image: url("imagesteam/aptitude.jpeg");
- }
-.carduuuu:nth-child(5):before {
  background-image: url("imagesteam/Carrer_page.jpg");
 }
-.carduuuu:nth-child(6):before {
+.carduuuu:nth-child(2):before {
  background-image: url("imagesteam/Gramkatha.jpg");
 }
-.carduuuu:nth-child(7):before {
+.carduuuu:nth-child(3):before {
  background-image: url("imagesteam/K-12_gravitation.jpg");
 }
-.carduuuu:nth-child(8):before {
+.carduuuu:nth-child(4):before {
  background-image: url("imagesteam/Event (2).jpeg");
 }
-.carduuuu:nth-child(9):before {
+.carduuuu:nth-child(5):before {
  background-image: url("imagesteam/Event (1).jpeg");
 }
-.carduuuu:nth-child(10):before {
+.carduuuu:nth-child(6):before {
  background-image: url("imagesteam/Bid_n_win.jpg");
 }
-.carduuuu:nth-child(11):before {
+.carduuuu:nth-child(7):before {
   background-image: url("imagesteam/Event (3).jpeg");
 }
-.carduuuu:nth-child(12):before {
+.carduuuu:nth-child(8):before {
  background-image: url("imagesteam/Event (5).jpeg");
 }
-.carduuuu:nth-child(13):before {
+.carduuuu:nth-child(9):before {
  background-image: url("imagesteam/Event (4).jpeg");
 }
-.carduuuu:nth-child(14):before {
+.carduuuu:nth-child(10):before {
  background-image: url("imagesteam/Event (6).jpeg");
 }
-.carduuuu:nth-child(15):before {
+.carduuuu:nth-child(11):before {
  background-image: url("imagesteam/Art_e_culate.jpg");
 }
-.carduuuu:nth-child(16):before {
+.carduuuu:nth-child(12):before {
  background-image: url("imagesteam/Event (8).jpeg");
 }
 

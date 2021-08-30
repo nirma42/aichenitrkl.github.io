@@ -136,6 +136,33 @@ function myfunction12(){
     location.href = "article.html";
 }
 
+function myfunction13(){
+    sessionStorage.setItem("points", 13);
+    location.href = "article.html";
+}
+
+function myfunction14(){
+    sessionStorage.setItem("points", 14);
+    location.href = "article.html";
+}
+
+function myfunction15(){
+    sessionStorage.setItem("points", 15);
+    location.href = "article.html";
+}
+
+function myfunction16(){
+    sessionStorage.setItem("points", 16);
+    location.href = "article.html";
+}
+
+function myfunction17(){
+    sessionStorage.setItem("points", 17);
+    location.href = "article.html";
+}
+
+
+
 
 function myfunction_1(){
     sessionStorage.setItem("points", -1);
@@ -263,7 +290,42 @@ else if(sessionStorage.getItem("points") == 12){
     var element1 = document.getElementById("id02");
     element1.innerHTML = "Engineering is a vast field of study and is categorized under many branches. Consequently, it is very difficult for someone to know about all of those branches and the prospects and opportunities that come along with it. Career decisions are often confusing and are a rally important part of a student’s life as they have to stick with their decision for the rest of their lives. To ease their troubles in this matter our chapter’s K-12 division organized career fair where panelists from all the engineering streams were called to give a presentation on the prospects and opportunities of their respective branches. Students from class seven to twelve were called to participate from various schools under the coordination of our team and the respective faculties of the participating institutes. This three-day long event was a success overall and it also helped a lot of students to clarify their doubts on what branch they could pursue in their undergraduate years.";
 }
+else if(sessionStorage.getItem("points") == 13){
+    var element = document.getElementById("id01");
+    element.innerHTML = "Aptitude";
+    document.getElementById('myImage').src="imagesteam/aptitude.jpeg";
+    var element1 = document.getElementById("id02");
+    element1.innerHTML = "Diverse Executive Mindsets are a common thing nowadays and with various competitive examinations looming around things can get quite overwhelming sometimes for the aspirants. To help with this we have decided to hold a Professional Development Week and what better way to start it off than an Aptitude Test. Every competitive exam, irrespective of its nature and levels like GATE, CAT, UPSC, GMAT, and others demands a certain amount of adeptness in the respective subjects. One must be truly fluent and familiar with every aspect of it to achieve a good score. The Aptitude Test is sure to put your skills to the test.";
+}
+else if(sessionStorage.getItem("points") == 14){
+    var element = document.getElementById("id01");
+    element.innerHTML = "Decoding Disasters";
+    document.getElementById('myImage').src="imagesteam/decoding.jpeg";
+    var element1 = document.getElementById("id02");
+    element1.innerHTML = "Carefulness costs you nothing. Carelessness may cost you your life.Industrialization has a vital role to play in the economic development of under-developed economies with colossal workforce and varied sources. But along with the development, there comes a threat.The fires of the industry have long been stoked with sweat and toil. But often, they claim an even higher human price. So, safety in industries is top of mind.We, AIChE NITR student chapter, bring to you a safety series addressing the various industrial disasters, the root causes, casualties caused by them, and detailed solution analysis of the incident.";
+}
+else if(sessionStorage.getItem("points") == 15){
+    var element = document.getElementById("id01");
+    element.innerHTML = "DCrypt";
+    document.getElementById('myImage').src="imagesteam/Dcrypt.jpeg";
+    var element1 = document.getElementById("id02");
+    element1.innerHTML = "Are you an admirer of nature but feel downcasted due to the harm that humans are causing to it? Do you want to bring insight into the conservation of nature and its importance? Then, participate in D'Crypt, an initiative by the AIChE NIT Rourkela Student chapter on the theme of Conservation of Nature for testing awareness of participants about the beautiful, diverse natural world.It's a fantastic event, and we've left no stone unturned to make it even more exciting with several twists and fun elements that will keep you captivated till the end.";
+}
+else if(sessionStorage.getItem("points") == 16){
+    var element = document.getElementById("id01");
+    element.innerHTML = "Inter-Chapter Chem-e-jeopardy";
+    document.getElementById('myImage').src="imagesteam/Inter-jeopardy.jpeg";
+    var element1 = document.getElementById("id02");
+    element1.innerHTML = "Confidence and Precision come through Practice and Preparation.Undoubtedly it was an incredibly fun and thrilling weekend of Chem-e-Jeopardy sessions to warm us up for the main event at the Student Regional Conferrence.AIChE student chapters of NIT Rourkela and AISSMS College of Engineering, Pune would like to thank all the participating institutes and the students for their time and cooperation to make this Inter Chapter Chem-E-Jeopardy a success.";
+}
 
+else if(sessionStorage.getItem("points") == 17){
+    var element = document.getElementById("id01");
+    element.innerHTML = "AIChE Sophomore Induction 2021";
+    document.getElementById('myImage').src="imagesteam/aiche-induct.jpg";
+    var element1 = document.getElementById("id02");
+    element1.innerHTML = "AIChE NITR is back with the Sophomore inductions for the academic session 2021-22. We will be inducting content writers, designers, event managers, and web developers. We aim to create awareness and developments in chemical engineering to inspire young minds to find new alternatives and solutions for a brighter future.Grab this chance to become a part of the global home of chemical engineers!!. Here is the link for Registration - <a href='bit.ly/AIChE-Inductions-2021'>AIChE-Inductions-2021</a>. Last Date for filling the form: 2nd September (Thursday), 11:59 PM.";
+}
 
 else if(sessionStorage.getItem("points") == -1){
     var element = document.getElementById("id01");
