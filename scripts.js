@@ -85,16 +85,41 @@ function myFunction() {
   // to change the css sheet. 
   if (theme.getAttribute('href') == 'light-theme.css') { 
       theme.setAttribute('href', 'dark-theme.css'); 
-      var elementi1 = document.getElementById("theme-toggle");
-      document.getElementById('changeimage').src="imagesteam/missions-dark-01.jpg";
+      // var elementi1 = document.getElementById("theme-toggle");
+      // document.getElementById('changeimage').src="imagesteam/missions-dark-01.jpg";
       document.getElementById('changeim').src="imagesteam/dark_mode.png";
       
 
   } else { 
       theme.setAttribute('href', 'light-theme.css'); 
-      var elementi2 = document.getElementById("theme-toggle");
+      // var elementi2 = document.getElementById("theme-toggle");
+      // document.getElementById('changeimage').src="imagesteam/missions-01.jpg";
+      document.getElementById('changeim').src="imagesteam/light_mode.jpg";
+
+  } 
+}
+
+function myFunction_events() { 
+  // Obtains an array of all <link> 
+  // elements. 
+  // Select your element using indexing. 
+  var theme = document.getElementsByTagName('link')[0]; 
+
+  // Change the value of href attribute  
+  // to change the css sheet. 
+  if (theme.getAttribute('href') == 'light-theme-2021events.css') { 
+      theme.setAttribute('href', 'dark-theme-2021events.css'); 
+      // var elementi1 = document.getElementById("theme-toggle");
+      document.getElementById('changeimage').src="imagesteam/missions-dark-01.jpg";
+      document.getElementById('changeim').src="imagesteam/dark_mode.png";
+      
+
+  } else { 
+      theme.setAttribute('href', 'light-theme-2021events.css'); 
+      // var elementi2 = document.getElementById("theme-toggle");
       document.getElementById('changeimage').src="imagesteam/missions-01.jpg";
       document.getElementById('changeim').src="imagesteam/light_mode.jpg";
 
   } 
 } 
+
