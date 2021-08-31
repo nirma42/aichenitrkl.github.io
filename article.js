@@ -212,13 +212,6 @@ else if(sessionStorage.getItem("points") == 3){
     element1.innerHTML = "Science and a Mystery are two sides of the same coin. We term everything without an explanation or something that we do not understand as a mystery. As disciples of Science, it our duty to unravel these mysteries and add them to the list of discoveries instead. CheMystery Sherlocked was entire carried out on our Instagram handle to promote the very unraveling of these mysteries. We covered a very range of topics that included Chemical Engineering on how it is helping mankind in its fight against the Covid-19 pandemic and how it is constantly contributing towards the manufacturing of hybrid polymers to suit our everyday life making it easier. We also covered topics such as the Green Revolution, the importance of refineries (the true sense behind petroleum being called liquid gold) and the use of DNA engineering to make up for the world food shortage by producing Genetically Modified crops.";
 }
 
-
-
-
-
-
-
-
 else if(sessionStorage.getItem("points") == 4){
     var element = document.getElementById("id01");
     element.innerHTML = "Blast from the Past ";
@@ -324,7 +317,7 @@ else if(sessionStorage.getItem("points") == 17){
     element.innerHTML = "AIChE Sophomore Induction 2021";
     document.getElementById('myImage').src="imagesteam/aiche-induct.jpg";
     var element1 = document.getElementById("id02");
-    element1.innerHTML = "AIChE NITR is back with the Sophomore inductions for the academic session 2021-22. We will be inducting content writers, designers, event managers, and web developers. We aim to create awareness and developments in chemical engineering to inspire young minds to find new alternatives and solutions for a brighter future.Grab this chance to become a part of the global home of chemical engineers!!. Here is the link for Registration - <a href='bit.ly/AIChE-Inductions-2021'>AIChE-Inductions-2021</a>. Last Date for filling the form: 2nd September (Thursday), 11:59 PM.";
+    element1.innerHTML = "AIChE NITR is back with the Sophomore inductions for the academic session 2021-22. We will be inducting content writers, designers, event managers, and web developers. We aim to create awareness and developments in chemical engineering to inspire young minds to find new alternatives and solutions for a brighter future.Grab this chance to become a part of the global home of chemical engineers!!. Here is the link for Registration - bit.ly/AIChE-Inductions-2021. Last Date for filling the form: 2nd September (Thursday), 11:59 PM.";
 }
 
 else if(sessionStorage.getItem("points") == -1){
