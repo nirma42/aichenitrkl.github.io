@@ -92,3 +92,14 @@
 
 }
 
+@media screen and (max-width: 600px) {
+    .item-5,.item-6,.item-7,.item-8,.item-1 p {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 28%;
+      display: none;
+    }
+
+  }
