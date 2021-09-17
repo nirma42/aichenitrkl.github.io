@@ -16,17 +16,17 @@
   min-height: 400px; 
 }
 
-.footer {
-  background-color: #b4b4b49d;
-  margin: 0px auto;
-  padding: 20px 0px; 
-}
+
 
 /*.jumbotronee {
   margin: 0px auto;
   padding: 70px 30px;
   background: #2e0d68;
   color: black; }*/
+
+
+/* ----------------------HERO SECTION------------------- */
+
 
 .jumbotrone {
   padding:2rem 1rem;
@@ -216,8 +216,14 @@ body {
 /*upto this*/
 
 
+/* ---------------------CAROUSEL-------------------- */
+
+
 .carousel {
-  background: #0e1720; 
+  background: #0e1720;
+  width:65.88%;
+  height:20.88%;
+  margin:auto; 
 }
 .carousel .carousel-item {
   height: 300px; 
@@ -227,6 +233,17 @@ body {
   top: 0;
   left: 0;
   min-height: 300px; 
+}
+
+@media screen and (max-width: 425px) {
+  .carousel{
+    background-color: #03a9f4;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    width: 100%;
+    height: 100%;
+  }
 }
 
 #carouselButton {
@@ -335,6 +352,16 @@ body {
   height: 700px;
 }*/
 
+
+/* -------------------FOOTER---------------------- */
+
+
+.footer {
+  background-color: #b4b4b49d;
+  margin: 0px auto;
+  padding: 20px 0px; 
+}
+
 /* social media icons */
 .icon-bar{
   position: fixed;    
@@ -395,7 +422,7 @@ body {
   }
 }
 
-
+/* map */
 .map-container{
   /* <<<<<<< HEAD */
   overflow:hidden;
@@ -410,7 +437,7 @@ body {
   width:100%;
   position:absolute;
 }
-
+/* ----------------------------------------- */
 
 .switch {
   position: relative;
@@ -756,13 +783,6 @@ body {
   }
 }
 
-
-/* =======
-  overflow:hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  height:0;
-  } */
 .map-container iframe{
   left:0;
   top:0;
@@ -770,21 +790,3 @@ body {
   width:100%;
   position:absolute;
 }
-
-.carousel{
-  width:65.88%;
-  height:20.88%;
-  margin:auto;
-}
-
-@media screen and (max-width: 425px) {
-  .carousel{
-    background-color: #03a9f4;
-    margin-left: 0%;
-    margin-right: 0%;
-    margin-bottom: 0%;
-    width: 100%;
-    height: 100%;
-  }
-}
-/* >>>>>>> ed440e78f770baf6d889c254e77a4adbd38af6be */
