@@ -161,6 +161,19 @@ function myfunction17(){
     location.href = "article.html";
 }
 
+function myfunction18(){
+    sessionStorage.setItem("points", 18);
+    location.href = "article.html";
+}
+
+function myfunction19(){
+    sessionStorage.setItem("points", 19);
+    location.href = "article.html";
+}
+
+
+
+
 
 
 
@@ -319,6 +332,24 @@ else if(sessionStorage.getItem("points") == 17){
     var element1 = document.getElementById("id02");
     element1.innerHTML = "AIChE NITR is back with the Sophomore inductions for the academic session 2021-22. We will be inducting content writers, designers, event managers, and web developers. We aim to create awareness and developments in chemical engineering to inspire young minds to find new alternatives and solutions for a brighter future.Grab this chance to become a part of the global home of chemical engineers!!. Here is the link for Registration - bit.ly/AIChE-Inductions-2021. Last Date for filling the form: 2nd September (Thursday), 11:59 PM.";
 }
+
+else if(sessionStorage.getItem("points") == 18){
+    var element = document.getElementById("id01");
+    element.innerHTML = "Wi-tricity";
+    document.getElementById('myImage').src="imagesteam/witricity.png";
+    var element1 = document.getElementById("id02");
+    element1.innerHTML = "In this module we break down the concept of wireless transmission into smaller chunks so that it’s more clearly understood. We also demonstrate this by building an actual tesla coil and showing practically how we can apply this.The applications of this are huge, you can light up an entire city without straying and fear of shock. This makes this concept very important and the science behind this can be understood at a K12 level. Along with Tesla coil, we also demonstrated another relatively unexplored aspect of wireless electricity, that is, capacitive coupling. We used the phenomenon of capacitive coupling in building a wireless tester that can detect live voltages in a wire without having to touch the wire.";
+}
+
+
+else if(sessionStorage.getItem("points") == 19){
+    var element = document.getElementById("id01");
+    element.innerHTML = " CHEM-E-AUCTION ";
+    document.getElementById('myImage').src="imagesteam/Chem-e-auction.jpeg";
+    var element1 = document.getElementById("id02");
+    element1.innerHTML = "Do you believe in adding value to the world you live in? Are you interested in designing innovative solutions but don't get an opportunity to do so? Well, here is good news, AIChE NIT Rourkela Student Chapter brings to you Chem-E-Auction with the theme — Bid to build a better future. This event provides you a platform to bring out your ideas that will contribute to the ecosystem. Check out our instagram page to know in detail. Registration link- <a target = '_blank' href='https://docs.google.com/forms/d/e/1FAIpQLSclLtSenhnE3iA0XRI5LIZovIIyqA9ychp-2e66O-ma_edOOg/viewform'>bit.ly/3ij6EAz</a> ";
+}
+
 
 else if(sessionStorage.getItem("points") == -1){
     var element = document.getElementById("id01");

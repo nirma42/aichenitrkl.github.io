@@ -602,18 +602,24 @@
     transition: transform calc(var(--d) * 2) var(--e);
    }
    .carduuuu:nth-child(1):before {
-    background-image: url("imagesteam/aiche-induct.jpg");
+    background-image: url("imagesteam/Chem-e-auction.jpeg");
    }
    .carduuuu:nth-child(2):before {
-    background-image: url("imagesteam/Inter-jeopardy.jpeg");
+    background-image: url("imagesteam/witricity.png");
    }
    .carduuuu:nth-child(3):before {
-    background-image: url("imagesteam/Dcrypt.jpeg");
+    background-image: url("imagesteam/aiche-induct.jpg");
    }
    .carduuuu:nth-child(4):before {
-    background-image: url("imagesteam/decoding.jpeg");
+    background-image: url("imagesteam/Inter-jeopardy.jpeg");
    }
    .carduuuu:nth-child(5):before {
+    background-image: url("imagesteam/Dcrypt.jpeg");
+   }
+   .carduuuu:nth-child(6):before {
+    background-image: url("imagesteam/decoding.jpeg");
+   }
+   .carduuuu:nth-child(7):before {
     background-image: url("imagesteam/aptitude.jpeg");
    }
     
