@@ -239,20 +239,20 @@ h2{
 }
 
 @media screen and (max-width: 375px){
-.container{
-  column-count: 1;
-}
-.caption-container{
-  font-size: 14px;
-}
-h1{
-  font-size: 15px;
-}
-.modal{
-  height: 8%;
-}
-.prev,
-.next {
-  top: 60%;
-}
+  .container{
+    column-count: 1;
+  }
+  .caption-container{
+    font-size: 14px;
+  }
+  h1{
+    font-size: 15px;
+  }
+  .modal{
+    height: 8%;
+  }
+  .prev,
+  .next {
+    top: 60%;
+  }
 }
